@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+body{
+    background-color: #c8e6c9 ;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sortBlockCont a{
+    margin-right: 1em;
+    padding:0.5em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.active{
+    border: 1px gray solid !important;
+    border-radius: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.mainform{
+    padding: 0.5em 3em 2em !important;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.6) !important;
 }
 
-.App-link {
-  color: #61dafb;
+.mainform input[type='text']{
+    color: darkorange;
+    font-size: large!important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mainform .todoText{
+    padding-bottom: 1.4em !important;
+    font-size: 2.5em !important;
+    color: rgba(165,167,6,0.8);
+}
+
+.mainform .done{
+    text-decoration: line-through;
+    opacity: 0.3;
+}
+
+.delCompletedButton{
+    padding: 0 0.5em 0 0.5em!important;
+    float: right !important;
+    color: red;
+    border: red dotted 2px;
+}
+
+.headText{
+    font-family: "Agency FB";
+    font-weight: bolder;
+    color: darkgreen;
+    opacity: 0.5;
+}
+
+
+.authorTop{
+    margin-top:1em;
+    margin-bottom: -1em;
+}
+
+.author a{
+    color: #003300;
+    font-weight:900;
+    font-family: 'Indie Flower', cursive;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .delCompletedButton{
+        margin-top: 2em!important;
+    }
 }

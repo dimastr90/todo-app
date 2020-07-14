@@ -1,0 +1,9 @@
+.sortBlockCont a{
+    margin-right: 1em;
+    padding:0.5em;
+}
+
+.active{
+    border: black 1px;
+    border: 1px black solid !important;
+}
